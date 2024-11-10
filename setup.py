@@ -2,8 +2,8 @@ import aiohttp
 
 
 async def main():
-    email = input("input email : ")
-    password = input("input password : ")
+    email = input("imel : ")
+    password = input("pwd : ")
     login_url = (
         "https://ikknngrgxuxgjhplbpey.supabase.co/auth/v1/token?grant_type=password"
     )
